@@ -21,7 +21,7 @@
 # Architecture 
 
 Apologies for being a terrible graphic designer:
-![alt text](<dg.png>)
+![dg](<dg.png>)
 
 The full application will be deployed as a DockerCompose stack, the backend and frontend will both be compartamentalised seperately. 
 The project will ofcourse use standard TLS encryption in addition to other technical solutions to security, `nginx` will need to exposre a public port for routing. Most requests other than backend traffic will be locally routed. The backend can interface `PostgressSQL` for metadata and system information and `MinIO` seperately for encrypted object storage. 
